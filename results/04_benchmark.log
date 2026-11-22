@@ -1,0 +1,14 @@
+== 2026-11-22 18:00:11 | user-r-combe-tamain-ece | DEBUT 04_benchmark
+== 2026-11-22 18:00:13 | user-r-combe-tamain-ece | copie locale de silver pour les mesures
+== 2026-11-22 18:00:15 | user-r-combe-tamain-ece | benchmark
+WARNING: Using incubator modules: jdk.incubator.vector
+Demarrage de la session Spark : 8398 ms
+Spark, Parquet, shuffle=8          Spark   Parquet       717 ms |      753 ms |      641 ms |      569 ms |      537 ms   mediane      641 ms
+Spark, Parquet, shuffle=200 (defaut) Spark   Parquet       611 ms |      586 ms |      614 ms |      603 ms |      527 ms   mediane      603 ms
+Spark, CSV brut, shuffle=8         Spark   CSV           634 ms |      899 ms |      618 ms |      684 ms |      596 ms   mediane      634 ms
+DuckDB, Parquet                    DuckDB  Parquet        17 ms |       15 ms |       16 ms |       15 ms |       14 ms   mediane       15 ms
+DuckDB, CSV brut                   DuckDB  CSV           321 ms |      341 ms |      339 ms |      335 ms |      342 ms   mediane      339 ms
+Resultats identiques entre moteurs/formats : OUI
+Taille : CSV brut 3901269 octets ; silver Parquet 1129655 octets (x3.5 plus petit)
+BENCHMARK OK -> /home/onyxia/work/bigdata_project/results/benchmark.csv
+== 2026-11-22 18:00:48 | user-r-combe-tamain-ece | FIN 04_benchmark
