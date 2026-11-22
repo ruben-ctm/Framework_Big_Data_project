@@ -1,0 +1,13 @@
+facteur,moteur,format,taille_octets,mediane_ms
+1,DuckDB,CSV,2377148,338
+1,DuckDB,Parquet,527535,162
+10,DuckDB,CSV,23771480,472
+10,DuckDB,Parquet,4639944,178
+100,DuckDB,CSV,237714800,1959
+100,DuckDB,Parquet,45601782,299
+1,Spark,CSV,2377148,1021
+1,Spark,Parquet,527535,767
+10,Spark,CSV,23771480,1079
+10,Spark,Parquet,4639944,630
+100,Spark,CSV,237714800,3910
+100,Spark,Parquet,45601782,854
