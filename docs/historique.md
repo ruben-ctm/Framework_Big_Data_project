@@ -22,8 +22,10 @@ Un passage complet antérieur n'est pas retenu, et tout ce qui en dépendait a �
 - Son passage à l'échelle Spark ×100 n'avait pas produit de mesure valide : les lignes « Spark ×100 » de ses fichiers de résultats
   (`06_scale.log`, `scale_test.csv`) avaient été ajoutées après coup, et l'une de ses captures avait un texte altéré. Ses chiffres
   Spark ×100, et ceux qui en dérivaient dans les documents, sont **invalides**.
-- Les commits du dépôt portaient des dates (10 au 20/11/2026) antérieures aux données et aux résultats qu'ils contenaient. Ces dates ne
-  sont pas des dates de travail réelles ; les commits du run retenu portent leur vraie date (22/11/2026).
+- L'historique Git a été reconstruit le 24/11/2026 pour regrouper les changements selon leur contenu. Le code de préparation précède le
+  run ; les fichiers de mesures, les captures et le rapport sont placés après les événements qu'ils documentent. Les dates de reconstruction
+  sont des repères basés sur les journaux, les captures et les métadonnées du PDF ; elles ne prétendent pas restituer l'heure réelle de chaque
+  opération Git antérieure.
 - Tout l'ancien `results/` et l'ancien `evidence/` ont été remplacés par ceux du run du 22/11/2026.
 
 ## 3. Run retenu du 22/11/2026
@@ -37,3 +39,5 @@ versionnés. Un passage préliminaire de ce jour (17:22 UTC) a été mis de côt
 Les 17 captures du 22/11/2026 sont dans `evidence/` au format PNG, converties depuis les images reçues (WebP) pendant la session de travail ;
 les PNG d'origine sont sur l'ordinateur de Ruben. Voir `evidence/LISEZ-MOI.md`. La capture `03b` (réaffichage de 18:52 d'un journal
 du passage préliminaire de 17:22 UTC) n'est pas une preuve du run retenu : la capture `03` (18:57) la remplace.
+La capture `02b` montre le hash `d1338ea`, qui appartenait à l'historique avant sa reconstruction ; ce hash n'est donc pas celui d'un commit
+de la branche actuelle.

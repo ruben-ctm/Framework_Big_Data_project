@@ -37,7 +37,7 @@ La montée en charge change-t-elle les performances des moteurs testés ?
 
 0. **Onyxia** : Catalogue de services → `vscode-pyspark` → régler CPU/mémoire (ci-dessus) → Lancer → Ouvrir, puis, dans un terminal :
 ```bash
-git clone https://github.com/ruben-ctm/bigdata_project.git && cd bigdata_project
+git clone https://github.com/ruben-ctm/Framework_Big_Data_project.git && cd Framework_Big_Data_project
 bash src/run_all.sh        # les 6 étapes ; les traces datées vont dans results/
 ```
 1. Étapes : `01_ingest` (téléchargement, manifeste, envoi S3) → `02_silver` (Spark) → `03_gold` (Spark) → `04_benchmark`
@@ -54,6 +54,6 @@ bash src/run_all.sh        # les 6 étapes ; les traces datées vont dans result
 ## Résultats (run du 22/11/2026)
 
 67 663 routes : 66 771 valides, 892 rejetées (1,32 %) ; ATL en tête avec 915 routes sortantes (217 destinations distinctes).
-Rapport : [PDF](report/RapportProjet_COMBE-TAMAIN_REVERSAT_DREAN-AVRILLON.pdf) (source LaTeX : `report/rapport.tex`). Détails : [qualité](docs/qualite.md),
+Rapport : [PDF](report/RapportProjet_COMBE-TAMAIN_REVERSAT_DREAN-AVRILLON.pdf). Détails : [qualité](docs/qualite.md),
 [mesures](docs/mesures.md), [pipeline](docs/pipeline.md), [×100](docs/echelle_x100.md), [historique et incidents](docs/historique.md).
 Preuves : [evidence/](evidence/) (captures), [results/](results/) (traces). Tests : `python3 -m unittest discover -s tests`.

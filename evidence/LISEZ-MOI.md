@@ -32,6 +32,7 @@ Remarques.
 - Dans la racine du bucket (`10`), seul `openflights/` appartient au projet.
 - Aucun redémarrage de conteneur n'a été observé pendant ce run ; aucune capture des événements du namespace n'est fournie.
 - L'ordre des heures : chaque capture d'étape est prise juste après `FIN` ; pour `07` l'horloge est environ une minute après la fin du journal.
+- La capture `02b` montre le hash `d1338ea` de l'historique antérieur à sa reconstruction ; il n'est plus présent dans la branche actuelle.
 
 ## Origine des fichiers de ce dossier
 Les PNG ci-dessus ont été obtenus par **conversion en PNG** (sans recadrage ni retouche) des images transmises pendant la session de
